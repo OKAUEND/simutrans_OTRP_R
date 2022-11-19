@@ -868,3 +868,9 @@ schedule_t * narrowgauge_vehicle_t::generate_new_schedule() const
 {
 	return new narrowgauge_schedule_t();
 }
+
+/*
+* OTRP_R
+* 増解結が可能化を判別する関数
+*/
+bool rail_vehicle_t::can_couple(const route_t* route, uint16 start_index, uint16 &coupling_point, uint16 &next_crossing){}
