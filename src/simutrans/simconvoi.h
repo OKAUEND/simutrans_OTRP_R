@@ -214,6 +214,13 @@ private:
 	player_t *owner;
 
 	/**
+	* OTRP_R Convoi Coupling
+	* a convoy that goes together with this convoy.
+	* 親の列車と行く子列車達
+	*/
+	convoihandle_t coupling_convoy;
+
+	/**
 	* Current map
 	*/
 	static karte_ptr_t welt;
